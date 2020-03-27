@@ -3,7 +3,8 @@
   background: rgb(236, 234, 234);
   width: 100%;
   max-width: 400px;
-  height: 620px;
+  height: 100%;
+  max-height: 100vh;
   margin: auto;
   margin-top: 50px;
   border: 2px solid rgb(31, 18, 15);
@@ -52,9 +53,6 @@ button:hover{
   font-size: smaller;
   color: rgb(241, 241, 241);
   border-radius: 5px;
-}
-.circle:nth-child(1) {
- background: #000;
 }
 
 h2, h3 {

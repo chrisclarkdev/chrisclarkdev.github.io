@@ -25,6 +25,7 @@ fetch(`https://coronavirus-19-api.herokuapp.com/countries/${country}`|| `uk`)
   active.innerHTML = "Active cases: " + countries.active;
   cases.innerHTML = "All Cases: " + countries.cases;
   deaths.innerHTML = "Deaths: " + countries.deaths;
+  todayDeaths.innerHTML = "Today's Deaths " + countries.todayDeaths;
   recovered.innerHTML = "Recovered: "  + countries.recovered;
   perDeath.innerHTML = " Percent of deaths: " + percentage.toFixed(2) + '%';
 });
