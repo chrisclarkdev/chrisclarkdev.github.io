@@ -1,7 +1,8 @@
 .container {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: rgb(236, 234, 234);
-  width: 486px;
+  width: 100%;
+  max-width: 400px;
   height: 620px;
   margin: auto;
   margin-top: 50px;
