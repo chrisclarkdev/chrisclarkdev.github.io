@@ -2,13 +2,12 @@
 countryName = document.getElementById('c-id');
 active = document.getElementById('active');
 perDeath = document.getElementById('perDeath');
-{/* <img src="https://www.countryflags.io/belgium/flat/64.png"></img> */}
 
 
 function pushData() {
 let country = document.getElementById("country").value;
 
-fetch(`https://coronavirus-19-api.herokuapp.com/countries/${country}`)
+fetch(`https://coronavirus-19-api.herokuapp.com/countries/${country}`|| `uk`)
 .then(response => {
   return response.json();
 })
