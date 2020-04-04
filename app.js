@@ -7,7 +7,7 @@ perDeath = document.getElementById('perDeath');
 function pushData() {
 let country = document.getElementById("country").value;
 
-fetch(`https://coronavirus-19-api.herokuapp.com/countries/${country}`|| `uk`)
+fetch(`https://coronavirus-19-api.herokuapp.com/countries/${country}`,{headers: {'Access-Control-Allow-Origin': '*'}})
 .then(response => {
   return response.json();
 })
